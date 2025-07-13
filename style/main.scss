@@ -1,1 +1,23 @@
 @use'./reset';
+@use'./colors' as colors;
+
+.navbar{
+  font-size: 2rem;
+  
+  .navbar-brand,
+  .navbar-toggler,
+  .nav-link{
+    color:colors.$main-color;
+  }
+  .navbar-brand{
+    font-size: 2.2rem;
+
+    i{
+      padding: 0 10px;
+      color:rgb(72, 102, 240);
+    }
+    span{
+      color:rgb(72, 102, 240);
+    }
+  }
+}

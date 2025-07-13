@@ -15,4 +15,23 @@ body {
   height: 100vh;
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
+}
+
+.navbar {
+  font-size: 2rem;
+}
+.navbar .navbar-brand,
+.navbar .navbar-toggler,
+.navbar .nav-link {
+  color: white;
+}
+.navbar .navbar-brand {
+  font-size: 2.2rem;
+}
+.navbar .navbar-brand i {
+  padding: 0 10px;
+  color: rgb(72, 102, 240);
+}
+.navbar .navbar-brand span {
+  color: rgb(72, 102, 240);
 }/*# sourceMappingURL=main.css.map */
