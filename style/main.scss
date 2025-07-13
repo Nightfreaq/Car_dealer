@@ -3,21 +3,24 @@
 
 .navbar{
   font-size: 2rem;
-  
-  .navbar-brand,
-  .navbar-toggler,
-  .nav-link{
-    color:colors.$main-color;
-  }
-  .navbar-brand{
-    font-size: 2.2rem;
+  text-transform: uppercase;
 
+  .navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: none;
     i{
-      padding: 0 10px;
+      padding: 0 8px;
       color:rgb(72, 102, 240);
     }
     span{
       color:rgb(72, 102, 240);
     }
   }
+  
+  .navbar-toggler{
+    padding: 5px 15px;
+    font-size: 2.2rem;
+  }
+  
 }

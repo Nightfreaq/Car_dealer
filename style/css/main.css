@@ -19,19 +19,21 @@ body {
 
 .navbar {
   font-size: 2rem;
-}
-.navbar .navbar-brand,
-.navbar .navbar-toggler,
-.navbar .nav-link {
-  color: white;
+  text-transform: uppercase;
 }
 .navbar .navbar-brand {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: none;
 }
 .navbar .navbar-brand i {
-  padding: 0 10px;
+  padding: 0 8px;
   color: rgb(72, 102, 240);
 }
 .navbar .navbar-brand span {
   color: rgb(72, 102, 240);
+}
+.navbar .navbar-toggler {
+  padding: 5px 15px;
+  font-size: 2.2rem;
 }/*# sourceMappingURL=main.css.map */
