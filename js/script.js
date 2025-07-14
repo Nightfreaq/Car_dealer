@@ -1,9 +1,7 @@
-function hideNav(){
-  const nav =document.querySelector(".navbar-collapse")
 
-  if(nav.classList.contains("show")){
-    nav.classList.remove("show")
-  }
-}
+const nav =document.querySelector(".navbar-collapse")
 
-document.addEventListener('click', hideNav)
+document.addEventListener('click', () => {
+  if(nav.classList.contains('show')){
+    nav.classList.remove('show')}
+  })
