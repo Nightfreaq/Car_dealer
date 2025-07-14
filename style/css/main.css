@@ -17,9 +17,22 @@ body {
   font-size: 1.6rem;
 }
 
+.bg-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: -1;
+}
+
 .navbar {
   font-size: 2rem;
   text-transform: uppercase;
+}
+.navbar .nav-link.active {
+  color: rgb(72, 102, 240);
 }
 .navbar .navbar-brand {
   font-size: 2.5rem;
@@ -36,4 +49,39 @@ body {
 .navbar .navbar-toggler {
   padding: 5px 15px;
   font-size: 2.2rem;
+}
+
+.header {
+  font-size: 2rem;
+}
+.header .carousel-item {
+  position: relative;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+.header .carousel-img-one {
+  background-image: url("/CarDealer/img/main-carousel-1.jpg");
+}
+.header .carousel-img-two {
+  background-image: url("/CarDealer/img/main-carousel-2.jpg");
+}
+.header .carousel-img-three {
+  background-image: url("/CarDealer/img/main-carousel-3.jpg");
+}
+
+@media (width >= 1400px) {
+  .header .carousel-item {
+    height: 700px;
+  }
+  .header .carousel-img-one {
+    background-image: url("/CarDealer/img/main-carousel-1-hq.jpg");
+  }
+  .header .carousel-img-two {
+    background-image: url("/CarDealer/img/main-carousel-2-hq.jpg");
+  }
+  .header .carousel-img-three {
+    background-image: url("/CarDealer/img/main-carousel-3-hq.jpg");
+  }
 }/*# sourceMappingURL=main.css.map */
