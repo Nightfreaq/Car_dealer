@@ -60,6 +60,34 @@
   }
 }
 
+.home{
+
+  .home-item{
+    i{
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+  }
+  .home-img{
+    position: relative;
+    height: 250px;
+    z-index: 0;
+    background-image: url('/CarDealer/img/sunset_1280.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .home-text{
+
+    h3{
+      font-size: 3.2rem;
+    }
+    p{
+      margin-bottom: 0;
+    }
+  }
+}
+
 
 @media(width >= 1400px){
 

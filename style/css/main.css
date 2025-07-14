@@ -71,6 +71,25 @@ body {
   background-image: url("/CarDealer/img/main-carousel-3.jpg");
 }
 
+.home .home-item i {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.home .home-img {
+  position: relative;
+  height: 250px;
+  z-index: 0;
+  background-image: url("/CarDealer/img/sunset_1280.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.home .home-text h3 {
+  font-size: 3.2rem;
+}
+.home .home-text p {
+  margin-bottom: 0;
+}
+
 @media (width >= 1400px) {
   .header .carousel-item {
     height: 700px;
