@@ -27,6 +27,23 @@ body {
   z-index: -1;
 }
 
+.top-hero {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  background-position: bottom;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
 .navbar {
   font-size: 2rem;
   text-transform: uppercase;
@@ -109,7 +126,6 @@ body {
     background-image: url("/CarDealer/img/main-carousel-3-hq.jpg");
   }
 }
-.top-hero {
-  position: relative;
-  top: 8rem;
+.aboutus-hero {
+  background-image: url("/CarDealer/img/about/highway_1280.jpg");
 }/*# sourceMappingURL=main.css.map */
