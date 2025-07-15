@@ -108,4 +108,8 @@ body {
   .header .carousel-img-three {
     background-image: url("/CarDealer/img/main-carousel-3-hq.jpg");
   }
+}
+.top-hero {
+  position: relative;
+  top: 8rem;
 }/*# sourceMappingURL=main.css.map */
