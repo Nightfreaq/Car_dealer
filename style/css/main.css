@@ -44,6 +44,10 @@ body {
   text-transform: uppercase;
 }
 
+.aboutus-middle {
+  position: relative;
+}
+
 .navbar {
   font-size: 2rem;
   text-transform: uppercase;
@@ -112,6 +116,34 @@ body {
   font-weight: bold;
 }
 
+.aboutus-hero {
+  background-image: url("/CarDealer/img/about/highway_1280.jpg");
+}
+
+.aboutus-info {
+  background-color: rgb(241, 239, 239);
+}
+.aboutus-info h3 {
+  margin-bottom: 0.5em;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+@media (width >= 992px) {
+  .aboutus-info {
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.35);
+  }
+  .aboutus-info .passion-text-top,
+  .aboutus-info .passion-text-bottom {
+    transform: skewX(-15deg);
+  }
+  .aboutus-info img {
+    height: 100%;
+    width: 100%;
+    transform: skewX(-15deg);
+  }
+}
 @media (width >= 1400px) {
   .header .carousel-item {
     height: 700px;
@@ -125,7 +157,4 @@ body {
   .header .carousel-img-three {
     background-image: url("/CarDealer/img/main-carousel-3-hq.jpg");
   }
-}
-.aboutus-hero {
-  background-image: url("/CarDealer/img/about/highway_1280.jpg");
 }/*# sourceMappingURL=main.css.map */

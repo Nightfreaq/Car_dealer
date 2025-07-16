@@ -28,6 +28,10 @@
   text-transform: uppercase;
 }
 
+.aboutus-middle{
+  position: relative;
+}
+
 
 // =========================
 
@@ -116,7 +120,46 @@
   }
 }
 
+// ==========================================
 
+.aboutus-hero{
+    background-image: url('/CarDealer/img/about/highway_1280.jpg');
+}
+
+.aboutus-info{
+  background-color: rgb(241, 239, 239);
+
+  h3{
+    margin-bottom: .5em;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+}
+
+
+
+// ======================================
+
+@media(width >=992px){
+
+  .aboutus-info{
+    box-shadow: inset 2px 2px 5px rgba(0,0,0, .35);
+
+    .passion-text-top,
+    .passion-text-bottom{
+      transform: skewX(-15deg);
+    }
+  
+      img{
+      height: 100%;
+      width: 100%;
+      transform: skewX(-15deg);
+    }
+
+  }
+  
+}
 @media(width >= 1400px){
 
   .header{
@@ -133,10 +176,4 @@
       background-image: url('/CarDealer/img/main-carousel-3-hq.jpg');
     }
   }
-}
-
-// ==========================================
-
-.aboutus-hero{
-    background-image: url('/CarDealer/img/about/highway_1280.jpg');
 }
