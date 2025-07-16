@@ -1,179 +1,199 @@
-@use'./reset';
-@use'./colors' as colors;
+@use "./reset";
+@use "./colors" as colors;
 
-.bg-shadow{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color:rgba(0,0,0,.65);
-  z-index: -1;
+.bg-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.65);
+	z-index: -1;
 }
 
-.top-hero{
-  position: relative;
-  height: 200px;
-  background-size: cover;
-  background-position: bottom;
-  z-index: 0;
+.top-hero {
+	position: relative;
+	height: 200px;
+	background-size: cover;
+	background-position: bottom;
+	z-index: 0;
 }
 
-.top-hero-text{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  font-size: 4rem;
-  text-transform: uppercase;
+.top-hero-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-size: 4rem;
+	text-transform: uppercase;
 }
 
-.aboutus-middle{
-  position: relative;
+.aboutus-middle {
+	position: relative;
 }
-
 
 // =========================
 
-.navbar{
-  font-size: 2rem;
-  text-transform: uppercase;
+.navbar {
+	font-size: 2rem;
+	text-transform: uppercase;
 
- .nav-link.active{
-    color:colors.$active-secondary;
-  }
+	.nav-link.active {
+		color: colors.$active-secondary;
+	}
 
-  .navbar-brand{
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-transform: none;
-    i{
-      padding: 0 8px;
-      color:colors.$active-secondary;
-    }
-    span{
-      color:colors.$active-secondary;
-    }
-  }
-  
-  .navbar-toggler{
-    padding: 5px 15px;
-    font-size: 2.2rem;
-  }
+	.navbar-brand {
+		font-size: 2.5rem;
+		font-weight: bold;
+		text-transform: none;
+		i {
+			padding: 0 8px;
+			color: colors.$active-secondary;
+		}
+		span {
+			color: colors.$active-secondary;
+		}
+	}
+
+	.navbar-toggler {
+		padding: 5px 15px;
+		font-size: 2.2rem;
+	}
 }
 
-.header{
-  font-size: 2rem;
+.header {
+	font-size: 2rem;
 
-  .carousel-item{
-    position: relative;
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-  }
+	.carousel-item {
+		position: relative;
+		height: 500px;
+		background-size: cover;
+		background-position: center;
+		z-index: 0;
+	}
 
-  .carousel-img-one{
-    background-image: url('/CarDealer/img/main-carousel-1.jpg');
-  }
-  .carousel-img-two{
-    background-image: url('/CarDealer/img/main-carousel-2.jpg');
-  }
-  .carousel-img-three{
-    background-image: url('/CarDealer/img/main-carousel-3.jpg');
-  }
+	.carousel-img-one {
+		background-image: url("/CarDealer/img/main-carousel-1.jpg");
+	}
+	.carousel-img-two {
+		background-image: url("/CarDealer/img/main-carousel-2.jpg");
+	}
+	.carousel-img-three {
+		background-image: url("/CarDealer/img/main-carousel-3.jpg");
+	}
 }
 
-.home{
+.home {
+	.home-item {
+		i {
+			font-size: 3rem;
+			margin-bottom: 10px;
+		}
+	}
+	.home-img {
+		position: relative;
+		height: 250px;
+		z-index: 0;
+		background-image: url("/CarDealer/img/sunset_1280.jpg");
+		background-size: cover;
+		background-position: center;
+	}
 
-  .home-item{
-    i{
-      font-size: 3rem;
-      margin-bottom: 10px;
-    }
-  }
-  .home-img{
-    position: relative;
-    height: 250px;
-    z-index: 0;
-    background-image: url('/CarDealer/img/sunset_1280.jpg');
-    background-size: cover;
-    background-position: center;
-  }
-
-  .home-text{
-
-    h3{
-      font-size: 3.2rem;
-    }
-    p{
-      margin-bottom: 0;
-    }
-  }
+	.home-text {
+		h3 {
+			font-size: 3.2rem;
+		}
+		p {
+			margin-bottom: 0;
+		}
+	}
 }
 
-.home-company{
-
-  h3{
-    font-size: 2.4rem;
-    font-weight: bold;
-  }
+.home-company {
+	h3 {
+		font-size: 2.4rem;
+		font-weight: bold;
+	}
 }
 
 // ==========================================
 
-.aboutus-hero{
-    background-image: url('/CarDealer/img/about/highway_1280.jpg');
+.aboutus-hero {
+	background-image: url("/CarDealer/img/about/highway_1280.jpg");
 }
 
-.aboutus-info{
-  background-color: rgb(241, 239, 239);
+.aboutus-info {
+	background-color: rgb(241, 239, 239);
 
-  h3{
-    margin-bottom: .5em;
-    font-size: 2.2rem;
-    text-transform: uppercase;
-    text-decoration: underline;
-  }
+	.container {
+		padding: 2em 1em;
+	}
+
+	.passion-text {
+		padding: 1.5em;
+	}
+
+	h3 {
+		margin-bottom: 0.5em;
+		font-size: 2.2rem;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-decoration: underline blue;
+	}
 }
 
+.aboutus-img {
+	height: 300px;
+	object-fit: cover;
+}
 
+.passion-text-right {
+	text-align: right;
+}
 
 // ======================================
 
-@media(width >=992px){
+@media (width >=992px) {
+	.aboutus-info {
+		box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.35);
 
-  .aboutus-info{
-    box-shadow: inset 2px 2px 5px rgba(0,0,0, .35);
+		.container {
+			padding: 0;
+		}
 
-    .passion-text-top,
-    .passion-text-bottom{
-      transform: skewX(-15deg);
+		.passion-text {
+			padding: 5em 0;
+			transform: skew(-15deg);
+		}
+    
+    .passion-text-left {
+      padding-right: 2em;
+      text-align: right;
     }
-  
-      img{
-      height: 100%;
-      width: 100%;
-      transform: skewX(-15deg);
+    .passion-text-right {
+      padding-left: 2em;
+      text-align: left;
     }
+	}
 
-  }
-  
+	.aboutus-img {
+		height: auto;
+		transform: skew(-15deg);
+	}
 }
-@media(width >= 1400px){
-
-  .header{
-    .carousel-item{
-      height: 700px;
-    }
-      .carousel-img-one{
-      background-image: url('/CarDealer/img/main-carousel-1-hq.jpg');
-    }
-    .carousel-img-two{
-      background-image: url('/CarDealer/img/main-carousel-2-hq.jpg');
-    }
-    .carousel-img-three{
-      background-image: url('/CarDealer/img/main-carousel-3-hq.jpg');
-    }
-  }
+@media (width >= 1400px) {
+	.header {
+		.carousel-item {
+			height: 700px;
+		}
+		.carousel-img-one {
+			background-image: url("/CarDealer/img/main-carousel-1-hq.jpg");
+		}
+		.carousel-img-two {
+			background-image: url("/CarDealer/img/main-carousel-2-hq.jpg");
+		}
+		.carousel-img-three {
+			background-image: url("/CarDealer/img/main-carousel-3-hq.jpg");
+		}
+	}
 }
