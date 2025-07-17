@@ -167,6 +167,25 @@
 
 }
 
+// =====================================
+
+.services{
+	position: relative;
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+
+	.services-img{
+		background-image: url('/CarDealer/img/car_home_1280.png');
+	}
+
+	h1{
+		font-size: 4rem;
+		letter-spacing: 2px;
+	}
+}
+
 // ======================================
 
 @media (width >=992px) {

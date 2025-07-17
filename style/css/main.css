@@ -12,7 +12,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 150vh;
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
 }
@@ -153,6 +153,21 @@ body {
 }
 .aboutus-cards .card i {
   font-size: 2.5rem;
+}
+
+.services {
+  position: relative;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+.services .services-img {
+  background-image: url("/CarDealer/img/car_home_1280.png");
+}
+.services h1 {
+  font-size: 4rem;
+  letter-spacing: 2px;
 }
 
 @media (width >= 992px) {
