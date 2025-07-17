@@ -28,10 +28,6 @@
 	text-transform: uppercase;
 }
 
-.aboutus-middle {
-	position: relative;
-}
-
 // =========================
 
 .navbar {
@@ -191,9 +187,55 @@
 	height: 400px;
 	background-position: bottom;
 	background-image: url("/CarDealer/img/Services/car_1920.jpg");
+
 	h1 {
 		font-size: 4rem;
 		letter-spacing: 2px;
+	}
+}
+
+.services-cards {
+	h2 {
+		font-size: 3rem;
+		margin-bottom: 0.25em;
+		font-weight: bold;
+	}
+
+	.services-card {
+		position: relative;
+		height: 300px;
+		background-size: cover;
+		background-position: center;
+		z-index: 0;
+		transition: background-size .3s;
+
+		h3 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+			font-size: 2.6rem;
+			text-transform: uppercase;
+		}
+	}
+
+	.services-card:hover{
+		background-size: 130%;
+		transition: all .3s;
+	}
+
+	.card-one {
+		background-image: url("/CarDealer/img/Services/engine.jpg");
+	}
+
+	.card-two {
+		background-image: url("/CarDealer/img/Services/visual.jpg");
+	}
+	.card-three {
+		background-image: url("/CarDealer/img/Services/car-audio.jpg");
+	}
+	.card-four {
+		background-image: url("/CarDealer/img/Services/allinone.jpg");
 	}
 }
 
