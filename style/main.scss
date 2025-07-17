@@ -38,6 +38,28 @@
 	font-size: 2rem;
 	text-transform: uppercase;
 
+	.nav-link {
+		position: relative;
+	}
+
+	.nav-link::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		height: 3px;
+		width: 100%;
+		background-color: #fff;
+		scale: 0 1;
+		transform-origin: right;
+		transition: scale 0.3s;
+	}
+
+	.nav-link:hover::before {
+		scale: 1 1;
+		transform-origin: left;
+	}
+
 	.nav-link.active {
 		color: colors.$active-secondary;
 	}
@@ -151,36 +173,25 @@
 	text-align: right;
 }
 
-.aboutus-cards{
-
-	.card{
-
-		h3{
+.aboutus-cards {
+	.card {
+		h3 {
 			font-size: 2rem;
 		}
-	
 
-		i{
+		i {
 			font-size: 2.5rem;
 		}
 	}
-
 }
 
 // =====================================
 
-.services{
-	position: relative;
+.services {
 	height: 400px;
-	background-size: cover;
-	background-position: center;
-	z-index: 0;
-
-	.services-img{
-		background-image: url('/CarDealer/img/car_home_1280.png');
-	}
-
-	h1{
+	background-position: bottom;
+	background-image: url("/CarDealer/img/Services/car_1920.jpg");
+	h1 {
 		font-size: 4rem;
 		letter-spacing: 2px;
 	}
@@ -200,15 +211,15 @@
 			padding: 5em 0;
 			transform: skew(-15deg);
 		}
-    
-    .passion-text-left {
-      padding-right: 2em;
-      text-align: right;
-    }
-    .passion-text-right {
-      padding-left: 2em;
-      text-align: left;
-    }
+
+		.passion-text-left {
+			padding-right: 2em;
+			text-align: right;
+		}
+		.passion-text-right {
+			padding-left: 2em;
+			text-align: left;
+		}
 	}
 
 	.aboutus-img {

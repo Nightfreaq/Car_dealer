@@ -52,6 +52,25 @@ body {
   font-size: 2rem;
   text-transform: uppercase;
 }
+.navbar .nav-link {
+  position: relative;
+}
+.navbar .nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  scale: 0 1;
+  transform-origin: right;
+  transition: scale 0.3s;
+}
+.navbar .nav-link:hover::before {
+  scale: 1 1;
+  transform-origin: left;
+}
 .navbar .nav-link.active {
   color: rgb(72, 102, 240);
 }
@@ -156,14 +175,9 @@ body {
 }
 
 .services {
-  position: relative;
   height: 400px;
-  background-size: cover;
-  background-position: center;
-  z-index: 0;
-}
-.services .services-img {
-  background-image: url("/CarDealer/img/car_home_1280.png");
+  background-position: bottom;
+  background-image: url("/CarDealer/img/Services/car_1920.jpg");
 }
 .services h1 {
   font-size: 4rem;
