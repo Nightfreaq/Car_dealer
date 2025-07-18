@@ -207,7 +207,7 @@
 		background-size: cover;
 		background-position: center;
 		z-index: 0;
-		transition: background-size .3s;
+		transition: .3s;
 
 		h3 {
 			display: flex;
@@ -221,7 +221,6 @@
 
 	.services-card:hover{
 		background-size: 130%;
-		transition: all .3s;
 	}
 
 	.card-one {
