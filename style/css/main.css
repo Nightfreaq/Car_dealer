@@ -222,11 +222,11 @@ body {
   background-position: center;
 }
 
-.projects .projects-title h2 {
+.projects h2 {
   font-size: 3.5rem;
 }
-.projects .projects-card img {
-  height: 50%;
+.projects .card img {
+  height: 270px;
   -o-object-fit: cover;
      object-fit: cover;
 }

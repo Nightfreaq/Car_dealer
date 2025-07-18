@@ -246,16 +246,13 @@
 }
 
 .projects{
-
-	.projects-title{
 		h2{
 			font-size: 3.5rem;
 		}
-	}
 
-	.projects-card{
+	.card{
 		img{
-			height: 50%;
+			height: 270px;
 			object-fit: cover;
 		}
 	}
