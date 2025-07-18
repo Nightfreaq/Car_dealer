@@ -217,6 +217,24 @@ body {
   background-image: url("/CarDealer/img/Services/allinone.jpg");
 }
 
+.projects-hero {
+  background-image: url("/CarDealer/img/Projects/project-hero.jpg");
+  background-position: center;
+}
+
+.projects .projects-title h2 {
+  font-size: 3.5rem;
+}
+.projects .projects-card img {
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.projects .project-indicators .btn {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
 @media (width >= 992px) {
   .aboutus-info {
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.35);
