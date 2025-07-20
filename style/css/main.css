@@ -272,6 +272,9 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
+.contact form label {
+  padding: 1em 0;
+}
 .contact .form-control,
 .contact .form-select {
   font-size: 1.6rem;
