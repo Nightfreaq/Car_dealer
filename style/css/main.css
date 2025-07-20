@@ -44,6 +44,15 @@ body {
   text-transform: uppercase;
 }
 
+.brand-icon {
+  padding: 0 8px;
+  color: rgb(72, 102, 240);
+}
+
+.brand-span {
+  color: rgb(72, 102, 240);
+}
+
 .navbar {
   font-size: 2rem;
   text-transform: uppercase;
@@ -233,6 +242,28 @@ body {
 .projects .project-indicators .btn {
   font-size: 1.8rem;
   text-transform: uppercase;
+}
+
+.contact-hero-img {
+  background-image: url("/CarDealer/img/Contact/Hero_contact_1920.jpg");
+}
+
+.contact h2 {
+  font-size: 3.5rem;
+}
+.contact .card .card-title h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contact .card .card-body h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contact .card .card-foot {
+  border-width: 90%;
+  font-size: 3rem;
 }
 
 @media (width >= 992px) {
