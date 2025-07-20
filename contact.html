@@ -28,8 +28,8 @@
         <div class="navbar-nav ms-auto">
           <a class="nav-link px-lg-3" aria-current="page" href="car_dealer.html">Home</a>
           <a class="nav-link px-lg-3" href="aboutus.html">o nas</a>
-          <a class="nav-link px-lg-3 " href="services.html">usługi</a>
-          <a class="nav-link px-lg-3 " href="projects.html">projekty</a>
+          <a class="nav-link px-lg-3" href="services.html">usługi</a>
+          <a class="nav-link px-lg-3" href="projects.html">projekty</a>
           <a class="nav-link px-lg-3 active" href="#">kontakt</a>
         </div>
       </div>
@@ -43,15 +43,16 @@
     </section>
 
     <section class="contact py-5">
-      <div class="container text-center mb-5">
+      <div class="container text-center py-5">
         <h2 class="mb-3">Napisz do nas!</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consectetur.</p>
       </div>
-      <div class="container py-5">
+
+      <div class="container">
         <div class="row row-cols-md-2">
-          <div class="col-md-4">
-            <div class="card text-center">
-              <div class="card-title mb-0 mt-5">
+          <div class="col-md-5 col-lg-4 mb-4 mb-lg-0">
+            <div class="card text-center p-4">
+              <div class="card-title mt-2">
                 <h3>dane kontaktowe</h3>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
@@ -59,33 +60,32 @@
                 <h4>adres</h4>
                 <p>ul Długa 0</p>
                 <p>00-000 Kraków</p>
-                <p>telefon</p>
+                <h4>telefon</h4>
                 <p>+48 000-000-000</p>
-                <p>e-mail</p>
+                <h4>e-mail</h4>
                 <p>mail@mail.pl</p>
               </div>
-              <div class="container card-foot border-top pt-3">
+              <div class="container card-foot border-top mt-3 pt-3 mb-n4">
                 <p><i class="fa-solid fa-icicles brand-icon"></i>Fro<span class="brand-span">st</span> Customs</p>
               </div>
-
             </div>
           </div>
 
-          <div class="col col-md-8">
+          <div class="col-md-7 col-lg-8">
             <form class="container border text-center" action="">
               <h3>formularz kontaktowy</h3>
               <div class="row m-3">
-                <div class="col">
+                <div class="col-sm-12 col-md-6">
                   <label for="">Imię i Nazwisko</label>
                   <input type="text" class="form-control" aria-label="First name">
                 </div>
-                <div class="col">
+                <div class="col-sm-12 col-md-6">
                   <label for="">Adres mailowy</label>
                   <input type="text" class="form-control" aria-label="Last name">
                 </div>
               </div>
               <div class="row m-3">
-                <div class="col">
+                <div class="col-sm-12 col-md-6">
                   <label for="">Jaki posiadasz samochód</label>
                   <select class="form-select" aria-label="Default select example">
                     <option selected>Wybierz jedno z poniższych...</option>
@@ -94,7 +94,7 @@
                     <option value="3">Crossover</option>
                   </select>
                 </div>
-                <div class="col">
+                <div class="col-sm-12 col-md-6">
                   <label for="">W jakiej sprawie piszesz</label>
                   <select class="form-select" aria-label="Default select example">
                     <option selected>Wybierz jedno z poniższych...</option>
@@ -103,17 +103,21 @@
                     <option value="3">Wycena</option>
                   </select>
                 </div>
-              </div>
-              <div class="row m-3">
-                <div class="col">
+                <div class="col-12">
                   <label for="">Wpisz treść wiadomości</label>
                   <textarea class="form-control" rows="10"></textarea>
                 </div>
               </div>
-
+              <button type="submit" class="btn btn-primary m-3">Wyślij</button>
             </form>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="contact-map p-5">
+      <div class="container d-flex flex-column align-items-center ">
+        <p class="display-5 fw-bold mb-4">Jak dojechać</p>
+            <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d163974.9983654238!2d19.83964327385714!3d50.04678283567398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471644c0354e18d1%3A0xb46bb6b576478abf!2zS3Jha8Ozdw!5e0!3m2!1spl!2spl!4v1753033817442!5m2!1spl!2spl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </section>
 
@@ -122,6 +126,8 @@
 
   <footer class="footer py-3 text-center bg-dark text-light">
     <p class="display-6 mb-0">&copy Frost Cars 2025</p>
+
+
   </footer>
 
 

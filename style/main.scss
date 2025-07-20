@@ -278,6 +278,7 @@ color: colors.$active-secondary;
 
 .contact-hero-img{
 	background-image: url('/CarDealer/img/Contact/Hero_contact_1920.jpg');
+	background-position: 0 40%;
 }
 
 .contact{
@@ -305,6 +306,34 @@ color: colors.$active-secondary;
 			border-width: 90%;
 			font-size: 3rem;
 		}
+	}
+
+	form{
+		h3{
+			margin: 1em 0;
+			font-size: 2.5rem;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	}
+
+	.form-control,
+	.form-select{
+		font-size: 1.6rem;
+	}
+
+	.btn{
+		padding: 0.3em 1em;
+		font-size: 2rem;
+	}
+
+}
+
+.contact-map{
+	iframe{
+		min-height: 600px;
+		width: 100%;
+
 	}
 }
 
